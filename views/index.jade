@@ -1,78 +1,182 @@
 doctype html
-html.
-    <link rel="stylesheet" href="/stylesheets/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css.map">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css.map">
+html
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css.map')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css.map')
 
-    <head>
-        <title>Hardy Pham</title>
-    </head>
-    <section class="hero is-bold is-small">
-        <!-- Hero header: will stick at the top -->
-        <div class="hero-head">
-          <header class="nav">
-            <div class="container">
-              <div class="nav-left">
-                <a class="nav-item">
+    head
+        title Hardy Pham
+        link(rel='shortcut icon', type='image/x-icon', href='images/favicon.ico')
 
-                </a>
-              </div>
-              <span class="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
-              <div class="nav-right nav-menu">
-                <a class="nav-item is-active">
-                  Projects
-                </a>
-                <a class="nav-item">
-                  Experience
-                </a>
-                <a class="nav-item">
-                  Education
-                </a>
-                <a class="nav-item">
-                  Resume
-                </a>
-              </div>
-            </div>
-          </header>
-        </div>
-    </section>
-    <section class="hero is-large is-light is-bold">
-        <!-- Hero content: will be in the middle -->
-        <div class="hero-body">
-          <div class="container has-text-centered">
-            <figure id="name" class="image is-128x128 img-circle">
-                <img class="img-circle" src="images/hardy.jpg">
-            </figure>
-            <h1 class="title">
-                Hardy Pham
-            </h1>
-            <h2 class="subtitle">
-                Software Engineer and Developer
-            </h2>
-            <a href="http://www.linkedin.com/in/hardypham" class="nav-item inline">
-                <i class="fa fa-linkedin-square fa-lg"></i>
-            </a>
-            <a href="http://www.github.com/h6pham8" class="nav-item inline">
-                <i class="fa fa-github" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
+    section.hero.is-small
+        // Hero header: will stick at the top
+        .hero-head
+            header.nav.has-shadow
+                .container
+                    .nav-left
+                        a.nav-item
+                    span.nav-toggle
+                        span
+                        span
+                        span
+                    .nav-right.nav-menu
+                        a.nav-item.is-active.is-tab
+                            | Experience
+                        a.nav-item
+                            | Projects
+                        a.nav-item
+                            | Education
+                        a.nav-item
+                            | Resume
 
-      </section>
+    section.hero.is-large.is-light.is-bold
+        // Hero content: will be in the middle
+        .hero-body
+            .container.has-text-centered
+                figure#name.image.is-128x128.img-circle
+                    img.img-circle(src='images/hardy.jpg')
+                h1.title
+                    | Hardy Pham
+                h2.subtitle
+                    | Software Engineer and Developer
+                a.nav-item.inline(href='http://www.linkedin.com/in/hardypham', target='_blank')
+                    i.fa.fa-linkedin-square.fa-lg
+                a.nav-item.inline(href='http://www.github.com/h6pham8', target='_blank')
+                    i.fa.fa-github(aria-hidden='true')
 
-    <section class="hero is-medium">
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <h1 class="title">
-                    Projects
-                 </h1>
-            </div>
-        </div>
-    </section>
+    section.hero.is-small
+        .hero-body
+            .container.has-text-centered
+                h1.title
+                    | Experience
+        .columns.is-mobile
+            .column.is-half.is-offset-one-quarter
+                ul.timeline
+                    li.timeline-item
+                        .timeline-info
+                            span July 2016 - Sept 2016
+                        .timeline-info
+                            a(href='https://www.shazam.com/', target='_blank')
+                                img.logo(src='images/Shazam.png')
+                        .timeline-marker
+                        h1.title.is-4
+                            | Shazam
+                        h1.subtitle.is-6
+                            | Software Engineering Intern
+                        p9
+                            | I developed both front and back end aspects of the infrastructure control panel.
+                        br
+                        br
+                        br
+
+                    li.timeline-item.period
+                        .timeline-info
+                        .timeline-marker
+                    br
+                    br
+                    br
+
+    section.hero.is-small.is-light.is-bold
+        .hero-body
+            .container.has-text-centered
+                h1.title
+                    | Projects
+        .columns.is-mobile
+            .column.is-half.is-offset-one-quarter
+                ul.timeline
+                    li.timeline-item
+                        .timeline-info
+                            span May 2017 - Present
+                        .timeline-info
+                            a(href='https://zulip.org/', target='_blank')
+                                img.logo(src='images/zulip.png')
+                        .timeline-marker
+                        p.title.is-4
+                            | Zulip
+                        p.is-spaced
+                            | Zulip is a powerful chat application.
+                            br
+                            | I contribute to the open source project by developing new features and issuing fixes.
+                            br
+                            br
+                            br
+
+                    li.timeline-item
+                        .timeline-info
+                            span Sept 2016 - Dec 2016
+                        .timeline-marker
+                        h1.title.is-4
+                            | Inertial Guidance System
+                        p9
+                            | The Inertial Guidance System is a system used by ViaSat engineers to help them access and improve the accuracy of their residential satellite terminals.
+                        br
+                        br
+                        br
+
+                    li.timeline-item
+                        .timeline-info
+                            span Sept 2016
+                        .timeline-marker
+                        h1.title.is-4
+                            | Trivia Trip
+                        p9
+                            | Trivia Trip is a web application that hosts a variety of trivia questions. The app is specifically intended to help people pass time by on long road trips.
+                        br
+                        br
+                        br
+
+                    li.timeline-item
+                        .timeline-info
+                            span Sept 2015 - Dec 2015
+                        .timeline-marker
+                        h1.title.is-4
+                            | Head Controlled Motor
+                        p9
+                            | The Head Controlled Motor is a wheelchair system for the paralyzed that utilizes head motions to control the motor.
+                            | I developed the software that monitored the head movement and relayed the data to an Arduino.
+                        br
+                        br
+                        br
+
+                    li.timeline-item
+                        .timeline-info
+                            span Nov 2014 - June 2015
+                        .timeline-marker
+                        h1.title.is-4
+                            | Micromouse
+                        p9
+                            | Micromouse is a robotics project that involves building a small robotic car to autonomously solve a maze as quickly as possible.
+                        br
+                        br
+                        br
+
+                    li.timeline-item.period
+                        .timeline-info
+                        .timeline-marker
+                    br
+                    br
+                    br
+
+    section.hero.is-small
+        .hero-body
+            .container.has-text-centered
+                h1.title
+                    | Education
+                br
+            .columns.is-desktop
+                .column.is-one-quarter.is-offset-one-quarter
+                    a#ucsd(href='https://ucsd.edu/', target='_blank')
+                        img#ucsd(src='images/ucsd.png')
+                .column.is-one-quarter
+                    h1.title.is-4
+                        | University of California, San Diego
+                    h1.subtitle.is-6
+                        | B.S. Electrical Engineering
+                        | 2017
+
+    footer.footer.is-light.is-bold
+        .container
+            .content.has-text-centered
