@@ -38,6 +38,14 @@ a {
   padding-left: 100px;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.project-link {
+  margin: 2px 0 0 10px;
+}
+
 body {
   color: #768390;
   background: #FFF;

@@ -7,6 +7,7 @@ html
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css')
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css.map')
 
+
     head
         title Hardy Pham
         link(rel='shortcut icon', type='image/x-icon', href='images/favicon.ico')
@@ -29,7 +30,7 @@ html
                             | Projects
                         a.nav-item
                             | Education
-                        a.nav-item
+                        a.nav-item(href='images/HardyPham_Resume.pdf', target='_blank')
                             | Resume
 
     section.hero.is-large.is-light.is-bold
@@ -90,12 +91,11 @@ html
                     li.timeline-item
                         .timeline-info
                             span May 2017 - Present
-                        .timeline-info
-                            a(href='https://zulip.org/', target='_blank')
-                                img.logo(src='images/zulip.png')
                         .timeline-marker
                         p.title.is-4
                             | Zulip
+                            a(href='http://www.zulip.org', target='_blank')
+                                i.project-link.fa.fa-window-maximize
                         p.is-spaced
                             | Zulip is a powerful chat application.
                             br
@@ -110,6 +110,10 @@ html
                         .timeline-marker
                         h1.title.is-4
                             | Inertial Guidance System
+                            a(href='https://github.com/h6pham8/Inertial-Guidance-Dev-System', target='_blank')
+                                i.project-link.fa.fa-github
+                            a#disp-IGS
+                                i.project-link.fa.fa-picture-o
                         p9
                             | The Inertial Guidance System is a system used by ViaSat engineers to help them access and improve the accuracy of their residential satellite terminals.
                         br
@@ -122,8 +126,14 @@ html
                         .timeline-marker
                         h1.title.is-4
                             | Trivia Trip
+                            a(href='http://triviatrip.herokuapp.com/', target='_blank')
+                                i.project-link.fa.fa-window-maximize
+                            a(href='https://github.com/h6pham8/Trivia-Trip', target='_blank')
+                                i.project-link.fa.fa-github
+                            a#disp-TT
+                                i.project-link.fa.fa-picture-o
                         p9
-                            | Trivia Trip is a web application that hosts a variety of trivia questions. The app is specifically intended to help people pass time by on long road trips.
+                            | Trivia Trip is a web application that hosts a variety of trivia questions. The app is intended to help people pass time by on long road trips.
                         br
                         br
                         br
@@ -147,6 +157,10 @@ html
                         .timeline-marker
                         h1.title.is-4
                             | Micromouse
+                            a(href='https://github.com/batmanatucsd/uMouse', target='_blank')
+                                i.project-link.fa.fa-github
+                            a#disp-MM
+                                i.project-link.fa.fa-picture-o
                         p9
                             | Micromouse is a robotics project that involves building a small robotic car to autonomously solve a maze as quickly as possible.
                         br
@@ -173,8 +187,9 @@ html
                 .column.is-one-quarter
                     h1.title.is-4
                         | University of California, San Diego
-                    h1.subtitle.is-6
+                    h1.subtitle.is-6.italic
                         | B.S. Electrical Engineering
+                        br
                         | 2017
 
     footer.footer.is-light.is-bold
