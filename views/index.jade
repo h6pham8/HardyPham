@@ -7,13 +7,12 @@ html
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css')
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css.map')
 
-
     head
         title Hardy Pham
         link(rel='shortcut icon', type='image/x-icon', href='images/favicon.ico')
 
+    //top header
     section.hero.is-small
-        // Hero header: will stick at the top
         .hero-head
             header.nav.has-shadow
                 .container
@@ -24,17 +23,17 @@ html
                         span
                         span
                     .nav-right.nav-menu
-                        a.nav-item.is-active.is-tab
+                        a.nav-item.is-tab#experience
                             | Experience
-                        a.nav-item
+                        a.nav-item.is-tab#projects
                             | Projects
-                        a.nav-item
+                        a.nav-item.is-tab#education
                             | Education
                         a.nav-item(href='images/HardyPham_Resume.pdf', target='_blank')
                             | Resume
 
+    //content
     section.hero.is-large.is-light.is-bold
-        // Hero content: will be in the middle
         .hero-body
             .container.has-text-centered
                 figure#name.image.is-128x128.img-circle
@@ -48,7 +47,7 @@ html
                 a.nav-item.inline(href='http://www.github.com/h6pham8', target='_blank')
                     i.fa.fa-github(aria-hidden='true')
 
-    section.hero.is-small
+    section.hero.is-small#experienceSection
         .hero-body
             .container.has-text-centered
                 h1.title
@@ -80,7 +79,7 @@ html
                     br
                     br
 
-    section.hero.is-small.is-light.is-bold
+    section.hero.is-small.is-light.is-bold#projectsSection
         .hero-body
             .container.has-text-centered
                 h1.title
@@ -174,7 +173,7 @@ html
                     br
                     br
 
-    section.hero.is-small
+    section.hero.is-small#educationSection
         .hero-body
             .container.has-text-centered
                 h1.title
@@ -190,8 +189,14 @@ html
                     h1.subtitle.is-6.italic
                         | B.S. Electrical Engineering
                         br
-                        | 2017
+                        | 2013-2017
 
+    //footer
     footer.footer.is-light.is-bold
         .container
             .content.has-text-centered
+
+
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery.appear/0.3.3/jquery.appear.js")
+    script(src="/javascripts/hardypham.js")
