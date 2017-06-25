@@ -35,8 +35,6 @@ var Modal = {
         this.bindModal(modal.micromouse, $("#micromouseModalTrigger"));
         this.bindModal(modal.triviaTrip, $("#triviaTripModalTrigger"));
         this.bindModal(modal.igs, $("#igsModalTrigger"));
-
-
     },
     bindModal: function(modalButton, modalTrigger){
         modalButton.on('click', function(){
