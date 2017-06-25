@@ -13,6 +13,11 @@ a {
   bottom: 10px;
 }
 
+#githubIcon {
+  position: relative;
+  bottom: 3px;
+}
+
 #name {
   display: inline-block;
 }
