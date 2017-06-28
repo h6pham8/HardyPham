@@ -38,7 +38,6 @@ var Modal = {
     },
     bindModal: function(modalButton, modalTrigger){
         modalButton.on('click', function(){
-            console.log('hello');
             modalTrigger.addClass('is-active');
         });
     },
