@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0f6ae75-448a-438c-aae5-cce61c247838" name="Default" comment="Fix timeline hover and color.">
+    <list default="true" id="b0f6ae75-448a-438c-aae5-cce61c247838" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/IGS.JPG" afterPath="$PROJECT_DIR$/public/images/IGS.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/hardypham.js" afterPath="$PROJECT_DIR$/public/javascripts/hardypham.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,17 +28,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
+            <state relative-caret-position="525">
               <caret line="211" column="42" lean-forward="false" selection-start-line="211" selection-start-column="42" selection-end-line="211" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hardypham.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hardypham.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/hardypham.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
@@ -58,8 +58,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IGS.JPG" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/images/IGS.JPG">
+      <file leaf-file-name="IGS.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/images/IGS.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -361,7 +361,7 @@
       <workItem from="1497527758845" duration="8630000" />
       <workItem from="1498397414374" duration="29000" />
       <workItem from="1498398099778" duration="4646000" />
-      <workItem from="1498536010164" duration="1012000" />
+      <workItem from="1498536010164" duration="1168000" />
     </task>
     <task id="LOCAL-00001" summary="Add timeline">
       <created>1496493062404</created>
@@ -412,11 +412,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498402717844</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fix 'hello' console bug.">
+      <created>1498661570945</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1498661570945</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39304000" />
+    <option name="totallyTimeSpent" value="39460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="977" extended-state="6" />
@@ -453,7 +460,8 @@
     <MESSAGE value="Add modal action/js for project pictures." />
     <MESSAGE value="Add image files and others." />
     <MESSAGE value="Fix timeline hover and color." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix timeline hover and color." />
+    <MESSAGE value="Fix 'hello' console bug." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix 'hello' console bug." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -616,14 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="211" column="42" lean-forward="false" selection-start-line="211" selection-start-column="42" selection-end-line="211" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -632,7 +632,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/IGS.JPG">
+    <entry file="file://$PROJECT_DIR$/public/images/IGS.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -641,6 +641,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="211" column="42" lean-forward="false" selection-start-line="211" selection-start-column="42" selection-end-line="211" selection-end-column="42" />
           <folding />
         </state>
       </provider>
