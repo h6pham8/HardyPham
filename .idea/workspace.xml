@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b0f6ae75-448a-438c-aae5-cce61c247838" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,11 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="169" column="19" lean-forward="false" selection-start-line="169" selection-start-column="19" selection-end-line="169" selection-end-column="19" />
+            <state relative-caret-position="277">
+              <caret line="153" column="19" lean-forward="true" selection-start-line="153" selection-start-column="19" selection-end-line="153" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="330">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -70,7 +69,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>app.use(expres</find>
       <find>app.use(express</find>
       <find>|</find>
       <find>#shazam-logo</find>
@@ -100,6 +98,7 @@
       <find>Shaza</find>
       <find>hover</find>
       <find>timeline</find>
+      <find>timeline-marker</find>
     </findStrings>
     <replaceStrings>
       <replace>.logo</replace>
@@ -120,8 +119,8 @@
         <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/public/javascripts/hardypham.js" />
-        <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
       </list>
     </option>
   </component>
@@ -360,7 +359,7 @@
       <workItem from="1498989633282" duration="193000" />
       <workItem from="1498989829698" duration="64000" />
       <workItem from="1498993197296" duration="5574000" />
-      <workItem from="1499004594433" duration="1011000" />
+      <workItem from="1499004594433" duration="1086000" />
     </task>
     <task id="LOCAL-00001" summary="Add timeline">
       <created>1496493062404</created>
@@ -460,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499000201666</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Change timeline color and tab color to black.">
+      <created>1499006207456</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1499006207456</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48180000" />
+    <option name="totallyTimeSpent" value="48255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="150" y="35" width="1680" height="977" extended-state="0" />
@@ -508,7 +514,8 @@
     <MESSAGE value="Change background.&#10;Change icons to links.&#10;Change Shazam experience description.&#10;Add email contact." />
     <MESSAGE value="Add change to resume." />
     <MESSAGE value="Fix Shazam logo positioning." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Shazam logo positioning." />
+    <MESSAGE value="Change timeline color and tab color to black." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change timeline color and tab color to black." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -790,10 +797,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="277">
+          <caret line="153" column="19" lean-forward="true" selection-start-line="153" selection-start-column="19" selection-end-line="153" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -806,10 +813,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="169" column="19" lean-forward="false" selection-start-line="169" selection-start-column="19" selection-end-line="169" selection-end-column="19" />
+        <state relative-caret-position="330">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding />
         </state>
       </provider>
