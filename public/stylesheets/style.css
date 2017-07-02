@@ -7,6 +7,10 @@ a {
   color: #00B7FF;
 }
 
+.inline {
+  display: inline-block;
+}
+
 .img-circle {
   border-radius: 50%;
   position: absolute;
@@ -40,7 +44,7 @@ a {
 
 #ucsd {
   height: 140px;
-  padding-left: 100px;
+  padding-left: 15%;
 }
 
 .italic {
