@@ -11,6 +11,10 @@ a {
   display: inline-block;
 }
 
+.title a {
+  padding: 0;
+}
+
 .img-circle {
   border-radius: 50%;
   position: absolute;
@@ -20,6 +24,7 @@ a {
 #githubIcon {
   position: relative;
   bottom: 3px;
+  padding: 0;
 }
 
 #name {
@@ -139,10 +144,10 @@ a:hover {
 .timeline-info {
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   margin: 0 0 .5em 0;
-  text-transform: uppercase;
   white-space: nowrap;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 /*----- TIMELINE MARKER -----*/

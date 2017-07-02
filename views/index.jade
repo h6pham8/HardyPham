@@ -12,7 +12,7 @@ html
         link(rel='shortcut icon', type='image/x-icon', href='images/favicon.ico')
 
     //top header
-    section.hero.is-small
+    section.hero.is-small.is-light
         .hero-head
             header.nav.has-shadow
                 .container
@@ -33,7 +33,7 @@ html
                             | Resume
 
     //content
-    section.hero.is-large.is-light.is-bold
+    section.hero.is-large.is-light
         .hero-body
             .container.has-text-centered
                 figure#name.image.is-128x128.img-circle
@@ -42,12 +42,14 @@ html
                     | Hardy Pham
                 h2.subtitle
                     | Software Engineer and Developer
+                h2.subtitle
+                    | hap028@ucsd.edu
                 a.nav-item.inline(href='http://www.linkedin.com/in/hardypham', target='_blank')
                     i.fa.fa-linkedin-square.fa-lg
                 a.nav-item.inline(href='http://www.github.com/h6pham8', target='_blank')#githubIcon
                     i.fa.fa-github(aria-hidden='true')
 
-    section.hero.is-small#experienceSection
+    section.hero.is-small.is-light#experienceSection
         .hero-body
             .container.has-text-centered
                 h1.title
@@ -67,7 +69,19 @@ html
                         h1.subtitle.is-6
                             | Software Engineering Intern
                         p9
-                            | I developed both front and back end aspects of the infrastructure control panel.
+                            | As a software intern, I redesigned the music submission infrastructure control panel.
+                            br
+                            br
+                            | A few of my accomplishments during my time at Shazam include:
+                            br
+                            br
+                            | Implemented an asychronous upload system for music tracks, saving ~20 hours of work each week.
+                            br
+                            | Designed RESTful APIs to build JSON payloads.
+                            br
+                            | Refactored backend APIs from javascript to PHP.
+                            br
+                            | Issued fixes to front-end and back-end bugs.
                         br
                         br
                         br
@@ -79,7 +93,7 @@ html
                     br
                     br
 
-    section.hero.is-small.is-light.is-bold#projectsSection
+    section.hero.is-small.is-light#projectsSection
         .hero-body
             .container.has-text-centered
                 h1.title
@@ -93,7 +107,7 @@ html
                         .timeline-marker
                         p.title.is-4
                             | Zulip
-                            a(href='http://www.zulip.org', target='_blank')
+                            a.nav-item.inline(href='http://www.zulip.org', target='_blank')
                                 i.project-link.fa.fa-window-maximize
                         p.is-spaced
                             | Zulip is a powerful chat application.
@@ -109,9 +123,9 @@ html
                         .timeline-marker
                         h1.title.is-4
                             | Inertial Guidance System
-                            a(href='https://github.com/h6pham8/Inertial-Guidance-Dev-System', target='_blank')
+                            a.nav-item.inline(href='https://github.com/h6pham8/Inertial-Guidance-Dev-System', target='_blank')
                                 i.project-link.fa.fa-github
-                            a#disp-IGS
+                            a.nav-item.inline#disp-IGS
                                 i.project-link.fa.fa-picture-o
                         p9
                             | The Inertial Guidance System is a system used by ViaSat engineers to help them access and improve the accuracy of their residential satellite terminals.
@@ -125,11 +139,11 @@ html
                         .timeline-marker
                         h1.title.is-4
                             | Trivia Trip
-                            a(href='http://triviatrip.herokuapp.com/', target='_blank')
+                            a.nav-item.inline(href='http://triviatrip.herokuapp.com/', target='_blank')
                                 i.project-link.fa.fa-window-maximize
-                            a(href='https://github.com/h6pham8/Trivia-Trip', target='_blank')
+                            a.nav-item.inline(href='https://github.com/h6pham8/Trivia-Trip', target='_blank')
                                 i.project-link.fa.fa-github
-                            a#disp-TT
+                            a.nav-item.inline#disp-TT
                                 i.project-link.fa.fa-picture-o
                         p9
                             | Trivia Trip is a web application that hosts a variety of trivia questions. The app is intended to help people pass time by on long road trips.
@@ -156,9 +170,9 @@ html
                         .timeline-marker
                         h1.title.is-4
                             | Micromouse
-                            a(href='https://github.com/batmanatucsd/uMouse', target='_blank')
+                            a.nav-item.inline(href='https://github.com/batmanatucsd/uMouse', target='_blank')
                                 i.project-link.fa.fa-github
-                            a#disp-MM
+                            a.nav-item.inline#disp-MM
                                 i.project-link.fa.fa-picture-o
                         p9
                             | Micromouse is a robotics project that involves building a small robotic car to autonomously solve a maze as quickly as possible.
@@ -173,7 +187,7 @@ html
                     br
                     br
 
-    section.hero.is-small#educationSection
+    section.hero.is-small.is-light#educationSection
         .hero-body
             .container.has-text-centered
                 h1.title
