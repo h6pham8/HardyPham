@@ -2,7 +2,8 @@ var MainMenu = {
   menu: {
       experience: $("#experience"),
       projects: $("#projects"),
-      education: $("#education")
+      education: $("#education"),
+      home: $("#home")
   },
   modal: {
       micromouse: $("#disp-MM")
@@ -12,6 +13,7 @@ var MainMenu = {
       this.bindClickAction(m.experience, $("#experienceSection"));
       this.bindClickAction(m.projects, $("#projectsSection"));
       this.bindClickAction(m.education, $("#educationSection"));
+      this.bindClickAction(m.home, $("#homeSection"));
 
   },
   bindClickAction: function(menu, destination) {

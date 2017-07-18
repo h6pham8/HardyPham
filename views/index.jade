@@ -16,13 +16,9 @@ html
         .hero-head
             header.nav.has-shadow
                 .container
-                    .nav-left
-                        a.nav-item
-                    span.nav-toggle
-                        span
-                        span
-                        span
                     .nav-right.nav-menu
+                        a.nav-item.is-tab#home
+                            | Home
                         a.nav-item.is-tab#experience
                             | Experience
                         a.nav-item.is-tab#projects
@@ -33,7 +29,7 @@ html
                             | Resume
 
     //content
-    section.hero.is-large.is-light
+    section.hero.is-large.is-light#homeSection
         .hero-body
             .container.has-text-centered
                 figure#name.image.is-128x128.img-circle
